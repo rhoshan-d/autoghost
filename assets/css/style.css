@@ -22,12 +22,76 @@ body {
 /* header */
 header {
     background-color: #1768AC;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    box-shadow: 0 4px 15px #555050;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit; /* removes default link color thingy */
+}
+
+
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    color: #1d1d1d;
+}
+
+#nav-menu-items { 
+    font-size: 100%;
+    letter-spacing: 4px;
+    list-style-type: none;
+    color: #363636;
+}
+
+#nav-menu-items > li {
+    margin-bottom: 1em;
+}
+
+/* end of header items */
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* Navbar styles & Dropdown */
+
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+/* nav toggle */
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
 /* main page content */
 main {
     background-color: #210B2C;
     flex: 1 0 auto;
+    margin-top: 48px;
 }
 
 /* footer */
