@@ -1,6 +1,8 @@
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
 
+
+/* Override default styles by the browser */
 * {
     padding: 0;
     margin: 0;
@@ -13,7 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #B9F18C;
+    color: #696666;
     font-family: 'Andika', sans-serif;
     font-style: italic;
     font-weight: 400;
@@ -21,12 +23,12 @@ body {
 
 /* header */
 header {
-    background-color: #1768AC;
+    background-color: #ebedee;
     padding: 0 1rem;
     position: fixed;
     z-index: 999;
     width: 100%;
-    box-shadow: 0 4px 15px #555050;
+    box-shadow: 0 3px 5px #555050;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -58,7 +60,7 @@ h1 {
 /* end of header items */
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #007bff;
 }
 
 /* Navbar styles & Dropdown */
@@ -89,12 +91,75 @@ nav {
 }
 /* main page content */
 main {
-    background-color: #210B2C;
+    background-color: #000000;
     flex: 1 0 auto;
     margin-top: 48px;
 }
 
 /* footer */
 footer {
-    background-color: #938274;
+    background-color: #ebedee;
+}
+
+/* Footer */
+#social-networks {
+    text-align: center;
+    padding: 3px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+    
+}
+
+#social-networks i:hover {
+    color: #007bff;
+}
+
+/* Tablets and larger (> 768px) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        background-color: #ebedee;
+    }
+    
+    #nav-menu-items {
+        display: flex;
+    }
+
+    #nav-menu-items > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    main {
+        margin-top: 79px;
+    }
+}
+
+/* for laptops & desktop > 992px and up */
+@media screen and (min-width: 992px) {
+
+    #nav-menu-items a:hover{
+        border-bottom: 1px solid #007bff;
+    }
 }
