@@ -1,0 +1,36 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #B9F18C;
+    font-family: 'Andika', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* header */
+header {
+    background-color: #1768AC;
+}
+
+/* main page content */
+main {
+    background-color: #210B2C;
+    flex: 1 0 auto;
+}
+
+/* footer */
+footer {
+    background-color: #938274;
+}
