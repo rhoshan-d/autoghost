@@ -99,7 +99,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url('../images/veyron.webp') no-repeat center center/cover;
+    background: url('../images/veyron.webp') no-repeat center 80% /cover;
     position: relative;
 }
 
@@ -160,6 +160,43 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* vehicles information section (looks ok on all screens by default) */
+#vehicle-information {
+    width: 80%;
+    margin: 20px auto;
+}
+
+#rhoshans-vehicles img {
+    width: 100%; /* Take up 100% of the screen ! */
+    line-height: 1em;
+    border-radius: 2%;
+}
+
+#rhoshans-vehicles h2 {
+    text-align: center;
+    font-size: large;
+}
+
+#rhoshans-vehicles div {
+    margin-bottom: 50px;
+}
+
+#rhoshans-vehicles button {
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    margin-left: 50%;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#rhoshans-vehicles button:hover {
+    background-color: #333;
 }
 
 /* footer */
