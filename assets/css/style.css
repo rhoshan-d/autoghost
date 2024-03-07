@@ -62,6 +62,10 @@ header a {
     border-bottom: 1px solid #007bff;
 }
 
+.hidden {
+    display: none;
+}
+
 /* Navbar styles & Dropdown */
 
 nav {
@@ -202,6 +206,7 @@ main {
 /* Gallerys page */
 #photos img {
     width: 100%; /* Take up 100% of the screen ! */
+    padding: 5px;
     line-height: 1em;
 }
 
