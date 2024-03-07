@@ -199,6 +199,16 @@ main {
     background-color: #333;
 }
 
+/* Gallerys page */
+#photos img {
+    width: 100%; /* Take up 100% of the screen ! */
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
 /* footer */
 footer {
     background-color: #ebedee;
@@ -222,6 +232,14 @@ footer {
 
 #social-networks i:hover {
     color: #007bff;
+}
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
 }
 
 /* Tablets and larger (> 768px) */
@@ -276,19 +294,27 @@ footer {
         text-align: end;
         align-self: flex-end;
     }
+
+    #photos {
+        column-count: 3;
+    }
     
 }
 
 /* for laptops & desktop > 992px and up */
 @media screen and (min-width: 992px) {
-
     #nav-menu-items a:hover{
         border-bottom: 1px solid #007bff;
+    }
+
+    /* Gallery */
+    #photos {
+        column-count: 4;
     }
 }
 
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
     /* Benefits for shopping with us section */
     #benefits {
         display: flex;
