@@ -119,6 +119,49 @@ main {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Reasons section */
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benefits-shopping > div,
+#benefits-shopping-2 > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#circle-cover-bg {
+    height: 90vw;
+    width: 90vw;
+    background: url('../images/lamborghini-murcielago.jpg') no-repeat 85% center/cover;
+    /* Make square to circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* footer */
 footer {
     background-color: #ebedee;
