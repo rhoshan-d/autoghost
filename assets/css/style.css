@@ -15,7 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #696666;
+    color: #9F9D9D;
     font-family: 'Andika', sans-serif;
     font-style: italic;
     font-weight: 400;
@@ -91,7 +91,7 @@ nav {
 }
 /* main page content */
 main {
-    background-color: #000000;
+    background-color: #0F0F0F;
     flex: 1 0 auto;
     margin-top: 48px;
 }
