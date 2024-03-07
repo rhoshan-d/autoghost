@@ -21,6 +21,12 @@ body {
     font-weight: 400;
 }
 
+h1,h2,h3 {
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    color: #1d1d1d;
+}
+
 /* header */
 header {
     background-color: #ebedee;
@@ -37,13 +43,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit; /* removes default link color thingy */
-}
-
-
-h1 {
-    font-family:'Courier New', Courier, monospace;
-    text-transform: uppercase;
-    color: #1d1d1d;
 }
 
 #nav-menu-items { 
@@ -91,9 +90,33 @@ nav {
 }
 /* main page content */
 main {
-    background-color: #0F0F0F;
     flex: 1 0 auto;
     margin-top: 48px;
+}
+
+/* Hero section */
+
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url('../images/veyron.webp') no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgba(39, 26, 88, 0.6);
+    position: absolute;
+    font-size: 140%;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* footer */
@@ -153,6 +176,11 @@ footer {
 
     main {
         margin-top: 79px;
+    }
+
+    /* Hero section */
+    #cover-text {
+        width: 612px;/*The aim is to match the same width before it changes might look good ? :D*/
     }
 }
 
