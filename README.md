@@ -1,7 +1,4 @@
 # AutoGhost
-
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
-
 AutoGhost is aiming to be a car dealership for high-end supercars in Ireland. The aim is to have a very simple straight forward buying process and minimalistic look this is useful considering there is alot of car websites are very cluttered.
 
 ![Responsice Mockup](https://github.com/rhoshan-d/autoghost/blob/main/readme_assets/autoghost_mockup.png)
@@ -96,9 +93,9 @@ The live link can be found here - https://rhoshan-d.github.io/autoghost/
 
 ## Credits 
 
-# Was used for the images on all the site pages (https://pixabay.com)
-# ChatGPT was used for the text on the body screen 
-# Code Institute for the guidance using Love Running
+- Was used for the images on all the site pages (https://pixabay.com)
+- ChatGPT was used for the text on the body screen 
+- Code Institute for the guidance using Love Running
 
 ### Content 
 
