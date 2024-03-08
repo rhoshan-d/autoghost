@@ -190,7 +190,7 @@ main {
     margin-bottom: 50px;
 }
 
-#rhoshans-vehicles button {
+#rhoshans-vehicles a {
     background-color: #000;
     color: #fff;
     border: 0;
@@ -200,10 +200,12 @@ main {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    text-decoration: none;
 }
 
-#rhoshans-vehicles button:hover {
+#rhoshans-vehicles a:hover {
     background-color: #333;
+    font-size: large;
 }
 
 /* Gallerys page */
