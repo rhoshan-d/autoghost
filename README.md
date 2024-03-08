@@ -100,7 +100,6 @@ The live link can be found here - https://rhoshan-d.github.io/autoghost/
 ### Content 
 
 - The text for the Home page text was taken from ChatGPT
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
